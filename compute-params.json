@@ -1,0 +1,10 @@
+[
+  {
+    "ParameterKey": "AppSecurityGroup",
+    "ParameterValue": "sg-0c3cf228dd2ef3e3a"
+  },
+  {
+    "ParameterKey": "KeyName",
+    "ParameterValue": "devops-key"
+  }
+]

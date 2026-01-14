@@ -1,0 +1,22 @@
+[
+  {
+    "ParameterKey": "VpcId",
+    "ParameterValue": "vpc-06e33ff5451c1f37c"
+  },
+  {
+    "ParameterKey": "PublicSubnets",
+    "ParameterValue": "subnet-04bdd146b52347925,subnet-0469168c249df1f58"
+  },
+  {
+    "ParameterKey": "AlbSecurityGroup",
+    "ParameterValue": "sg-0c024819e6270762c"
+  },
+  {
+    "ParameterKey": "LaunchTemplateId",
+    "ParameterValue": "lt-095b573a919f53717"
+  },
+  {
+    "ParameterKey": "LaunchTemplateVersion",
+    "ParameterValue": "1"
+  }
+]

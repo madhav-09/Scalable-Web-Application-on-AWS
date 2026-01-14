@@ -1,0 +1,32 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: DevOps Project - Compute Stack (Launch Template)
+
+Parameters:
+  AppSecurityGroup:
+    Type: AWS::EC2::SecurityGroup::Id
+  KeyName:
+    Type: AWS::EC2::KeyPair::KeyName
+
+Resources:
+  AppLaunchTemplate:
+    Type: AWS::EC2::LaunchTemplate
+    Properties:
+      LaunchTemplateName: devops-app-lt
+      LaunchTemplateData:
+        ImageId: ami-0ced6a024bb18ff2e   # Amazon Linux 2023 (ap-south-1)
+        InstanceType: t2.micro
+        KeyName: !Ref KeyName
+        SecurityGroupIds:
+          - !Ref AppSecurityGroup
+        UserData:
+          Fn::Base64: |
+            #!/bin/bash
+            yum update -y
+            yum install -y httpd
+            systemctl start httpd
+            systemctl enable httpd
+            echo "Hello from DevOps CloudFormation Project" > /var/www/html/index.html
+
+Outputs:
+  LaunchTemplateId:
+    Value: !Ref AppLaunchTemplate
