@@ -1,5 +1,6 @@
 # 🚀 My Journey Building a Scalable Web Application on AWS
 
+<img width="933" height="707" alt="image" src="https://github.com/user-attachments/assets/a7c05717-622e-46ca-83d6-bbcce9d8a119" />
 
 
 ## 📖 What This Project Is About
