@@ -12,12 +12,6 @@ I decided to use CloudFormation because I wanted to learn Infrastructure as Code
 
 **What makes it special:** Everything is automated, scalable, and follows AWS security best practices that I learned through trial and error.
 
-## 🏗️ How I Designed the Architecture
-
-I spent quite a bit of time sketching this out on Lucidchart before writing any code. Here's what I learned about each component:
-
-![AWS Architecture Diagram](docs/architecture/architecture.png)
-
 ### 🎯 Architecture Components (and why I chose them)
 
 - **Custom VPC**: Think of this as my own private network in AWS - like having my own internet within the internet
