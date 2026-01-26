@@ -1,6 +1,6 @@
 # 🚀 My Journey Building a Scalable Web Application on AWS
 
-
+![alt text](image-1.png)
 
 ## 📖 What This Project Is About
 
@@ -16,7 +16,7 @@ I decided to use CloudFormation because I wanted to learn Infrastructure as Code
 
 I spent quite a bit of time sketching this out on Lucidchart before writing any code. Here's what I learned about each component:
 
-![AWS Architecture Diagram](docs/architecture/aws-architecture.png)
+![AWS Architecture Diagram](docs/architecture/architecture.png)
 
 ### 🎯 Architecture Components (and why I chose them)
 
